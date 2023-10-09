@@ -4,14 +4,14 @@ function mostrarMensaje(mensaje) {
 
 function preguntarNombreUsuario() {
     const nombreUsuario = prompt("Por favor, ingrese su nombre:");
-    mostrarMensaje(`¡Bienvenido a nuestro ecommerce, ${nombreUsuario}!`);
+    mostrarMensaje(`¡Bienvenido a nuestra tienda online, ${nombreUsuario}!`);
     return nombreUsuario;
 }
 
 function preguntarCategoriaProducto() {
     let opcion;
     while (opcion !== "1" && opcion !== "2") {
-        opcion = prompt("¿Qué desea comprar?\nElija la opción 1 si son remeras, opción 2 si son pantalones:");
+        opcion = prompt("¿Qué desea comprar? Elija la opción 1 si son remeras, opción 2 si son pantalones:");
     }
     return opcion;
 }
@@ -22,10 +22,10 @@ function confirmarCompraProducto(categoria) {
 
     if (categoria === "1") {
         producto = "remera";
-        precio = 20; // Precio de la remera (puedes cambiarlo)
+        precio = 2000; // Precio de la remera 
     } else if (categoria === "2") {
         producto = "pantalón";
-        precio = 30; // Precio del pantalón (puedes cambiarlo)
+        precio = 3000; // Precio del pantalón 
     }
 
     const confirmacion = confirm(`Usted eligió ${producto}. Su precio es de $${precio}. ¿Desea comprar este artículo?`);
