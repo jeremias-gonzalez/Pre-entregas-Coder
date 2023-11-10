@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(8, 8, 8);
+    transition: background-color 1s, color 1s;
+}
+
+.nav{
+    background-color: rgb(255, 255, 255);
+    border-radius: 48px 48px 48px 48px;
+    box-shadow: 16px 16px 32px 16px violet;
+    margin: 8px 320px;
+    transition: background-color 1s, color 1s;
+}
+nav{
+    margin: 16px;
+    display: flex;
+    
+}
+ul,li, .a{
+    display: flex;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 16px;
+    
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+ul,li,.a:hover{
+   transition: all ease .55s;
+   color: rgb(90, 25, 243) 20, 0, 0;
+}
+.card {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 10px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-cartas {
+    background-color: rgb(239, 251, 247);
+}
+#form-persona {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 40px;
+}
+
+label, input {
+    padding: 5px 0px;
+}
+
+.darkmode-button{
+    background-color: transparent;
+}
+.dark-image{
+    background-color: transparent;
+}
+.carrito-btn{
+    background-color: rgb(128, 128, 128);
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 10px 10px 100px 10px rgb(181, 103, 255);
+    width: 200px;
+    margin: 100px;
+}
+
+.h1-cart{
+    color: rgb(181, 103, 255) ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.contain-h1{
+    margin: 100px;
+}
+.backshop{
+    background-color: rgb(181, 103, 255) ;
+    color: white;
+    border-radius: 40px 40px 40px 40px;
+}
+.contain-cart-modepage{
+    display: flex;
+    margin: 25px;
+    margin-left: 500px;
+}
+.contain-cart{
+    margin-right: 50px;
+}
+.img-cart{
+    width: 40px;
+}
+#dark-image{
+    width: 40px;
+}
+#light-image{
+    width: 40px;
+}
+.h1-contain-form{
+    align-items: center;
+}
+.h1-form{
+    color: rgb(181, 103, 255) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+label{
+    color: rgb(181, 103, 255) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.formulario{
+    margin: 100px 900px;
+    
+}
+.search{
+    margin: 100px 900px;
+}
